@@ -8,7 +8,7 @@ import pytest
 @pytest.mark.smoke
 def test_firstProgram():
     print("Hello")
-
+    print("Success message to confirm if the push is succcessful")
 @pytest.mark.xfail
 def test_creditcard():
     print("Hello Goodbye")
